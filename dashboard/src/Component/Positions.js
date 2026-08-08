@@ -6,7 +6,7 @@ const Positions = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allPositions")
+      .get("https://trading-platform-1-nwig.onrender.com/allPositions")
       .then((res) => {
         console.log(res.data);
         setPositions(res.data);
