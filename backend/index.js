@@ -335,3 +335,7 @@ app.post("/api/auth/login", async (req, res) => {
     });
   }
 });
+
+app.get("/", (req, res) => {
+  res.send("Trading Platform Backend is running ");
+});
