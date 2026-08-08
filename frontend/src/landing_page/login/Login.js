@@ -36,7 +36,8 @@ function Login() {
 
       alert("Login Successful");
 
-     window.location.replace("http://localhost:3001");
+    window.location.href =
+  "https://trading-platform-3-5sda.onrender.com";
     } catch (err) {
 
       alert(

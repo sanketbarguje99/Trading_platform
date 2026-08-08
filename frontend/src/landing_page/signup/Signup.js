@@ -29,7 +29,7 @@ function Signup() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/signup",
+        "https://trading-platform-1-nwig.onrender.com/api/auth/signup",
         {
           name: user.name,
           email: user.email,
